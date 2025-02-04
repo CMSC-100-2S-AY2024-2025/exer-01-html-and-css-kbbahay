@@ -12,13 +12,13 @@ I created my own GitHub Page from HTML and CSS
 
 ## Challenges encountered
 
-Describe it here
+CSS is really hard in the beginning since there are so many
+attributes that you can use.
 
 ## Solutions
 
-Describe them here
+I used w3school to learn different attributes and it's effect.
 
 ## References
 
-- reference
-- another reference
+- https://www.w3schools.com/css/default.asp

@@ -1,3 +1,8 @@
+<!-- Created by: Kent Benedick A. Bahay || 2023-14991 -->
+<!-- Date: February 04, 2025 -->
+<!-- CMSC 100 - U2L -->
+<!-- This is a portfolio static website. -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,37 +12,100 @@
     <link rel="stylesheet" href="exercise2.css">
 </head>
 <body>
-    <div class="maindiv">
+    <!-- Logo and Navigation Section -->
+    <div id="logo"class="maindiv">
         <br>
-        <img src="Images\logo.jpg"
-        width="125" height="125">
+        <img src="Images/logo.png" width="125" height="125" alt="Logo">
         <h1>My Portfolio</h1>
         <div class="buttondiv">
-            <a href="exercise2.html"><button class="buttons" onclick="exercise2.html">Home</button></a>
-            <button class="buttons">About</button>
-            <button class="buttons">Contact Us</button>
-            <button class="buttons">Go to bottom</button>
+            <!-- Navigation Buttons -->
+            <a href="exercise2.html"><button class="buttons">Home</button></a>
+            <a href="https://www.facebook.com/kendeirou"><button class="buttons">About</button></a>
+            <a href="https://github.com/kbbahay"><button class="buttons">Contact Me</button></a>
+            <a href="#bottom"><button class="buttons">Go to bottom</button></a>
+        </div>
+        <br>
+    </div>
+
+    <br>
+
+    <!-- About Me Section -->
+    <div class="maindiv">
+        <h4>About me</h4>
+        <div class="feature">
+            <!-- Personal Information and Photo -->
+            <div class="featcontent">
+                <img class="ftimg" src="Images/osammm.png" width="400" height="400" alt="Me" title="My 1x1 Picture">
+                <p class="feattxt" style="text-indent: 40px;">
+                    My name is Kent Benedick A. Bahay, and I was born on 
+                    July 25, 2004, in Taytay, Rizal. Our family now resides in Pasig City, Manila. I have three 
+                    siblings, and I am the second child. My parents, Rosalie Adriano Bahay and Benedicto T. Bahay, 
+                    have always been my greatest support system. <br><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I completed my elementary education at De Castro Elementary School in Pasig and proudly graduated 
+                    from Pasig Science High School with pride and honor. After Senior High School, I applied for the 
+                    DOST Scholarship Program to support my college education, as I would be studying far from my 
+                    hometown. Fortunately, fate favored me, and passed both the UPCA and the DOST Scholarship Program,
+                     which brought me to where I am today. <br><br>
+                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I recently graduated with a Bachelor of Science in Computer Science from the University of the 
+                    Philippines, an achievement that has equipped and honed me with the knowledge and skills. My college
+                     journey was both challenging and rewarding, pushing me to grow not just academically but also personally. 
+                     Throughout my academic journey, I developed technical expertise, analytical thinking, and a deep 
+                     appreciation for innovation in technology. Additionally, my experiences inside and outside the classroom 
+                     have strengthened my adaptability, collaboration, and critical thinking skills.
+                </p>
+            </div>
+        </div>
+        <br>
+
+        <!-- Skills and Featured Photo Section -->
+        <div class="skphoto">
+            <div class="skills">
+                <h4 class="section-title">Skills</h4>
+                <p style="line-height: 1.2;">
+                    - Proficient in many Programming Languages <br>
+                    - Software Engineering and Design <br>
+                    - Mathematical and Analytical Skills <br>
+                    - Web Development <br>
+                    - Problem-Solving and Critical Thinking<br>
+                    - Communication and Collaboration <br>
+                </p>
+            </div>
+                
+            <div class="ftphoto">
+                <h4 class="section-title">Featured Photo</h4>
+                <img class="ftimg" src="Images/ftphoto.jpg" title="Me and my team" style="width: 75%; height: auto;">
+            </div>
+        </div>
+        
+        <h4 class="minittl">Previous Project</h4>
+        
+        <!-- Previous Projects Section -->
+        <div class="divproj">
+            <img class="ftimg" src="Images/feat1.png" title="Super Auto Pets" height="300" width="533">
+            <img class="ftimg" src="Images/feat2.png" title="Super Auto Pets" height="300" width="533">
+            <img class="ftimg" src="Images/feat3.png" title="Super Auto Pets" height="300" width="533">
         </div>
         <br>
     </div>
     <br>
-    <div class="maindiv">
-        <h3 class="minittl">Featured Photo</h3>
-        <img src="Images\osammm.png" width="400" height="400" alt="Me">
+
+    <!-- Footer Section -->
+    <div id="bottom" class="maindiv">
         <br>
-        <h3 class="minittl">Previous Projects</h3>
+        <div style="margin-left: -1250px;" class="footer">
+            <img src="Images/logo.png" height="130" width="130">
+            <div class="infooter">
+                <!-- Contact Information -->
+                <h3>1745 Grove, Batong Malake, Los Banos, Laguna</h3>
+                <h3>kabahay@up.edu.ph</h3>
+                <h3>Contact Information: 0994-260-7064</h3>
+                <h3>© 2025 All Rights Reserved</h3>
+                <a href="https://github.com/kbbahay"><h3>https://github.com/kbbahay</h3></a>
+                <a href="#logo" style="text-decoration: none;">Back to top</a>
+            </div>
+        </div>
         <br>
-        <div class="divproj">
-
-        </div>
-
-        <div>
-
-        </div>
     </div>
 
-    <div class="maindiv">
-
-    </div>
 </body>
 </html>
